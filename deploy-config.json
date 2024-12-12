@@ -1,0 +1,30 @@
+{
+    "name": "celestial-guidance",
+    "version": "1.0.0",
+    "files": [
+        "index.html",
+        "styles.css",
+        "script.js",
+        "images/*"
+    ],
+    "env": {
+        "STRIPE_PUBLIC_KEY": "YOUR_STRIPE_PUBLIC_KEY"
+    },
+    "hosting": {
+        "requirements": [
+            "Static file hosting",
+            "HTTPS support",
+            "Custom domain support (optional)"
+        ]
+    },
+    "deployment_checklist": [
+        "Update meta tags in index.html",
+        "Compress and optimize images",
+        "Minify CSS and JavaScript",
+        "Test payment integration",
+        "Verify all links and forms",
+        "Check responsive design",
+        "Enable HTTPS",
+        "Setup domain and DNS"
+    ]
+}

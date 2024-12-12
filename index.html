@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celestial Guidance - Renu Chaudhary</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">✨ Celestial Guidance</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About & Certification</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#booking">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Unlock the power of astrology to elevate your life journey</h1>
+                    <p>Get personalized guidance from expert astrologer Renu Chaudhary to navigate your path to success and fulfillment</p>
+                    <a href="#booking" class="cta-button">Book a Reading</a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/astrologer.jpg" alt="Renu Chaudhary">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About & Certification</h2>
+            <p class="section-subtitle">Experience and Expertise in Vedic Astrology</p>
+            
+            <div class="about-container">
+                <div class="about-card">
+                    <img src="images/astrologer.jpg" alt="Renu Chaudhary">
+                    <h3>Renu Chaudhary</h3>
+                    <p class="about-description">With over 15 years of experience in Vedic Astrology, I have helped thousands of individuals navigate their life paths through celestial guidance. Specializing in relationship counseling, career guidance, and life path analysis, I combine traditional Vedic wisdom with modern psychological insights.</p>
+                    
+                    <div class="certifications">
+                        <div class="cert-item">
+                            <span class="cert-icon">🏆</span>
+                            <span>Jyotish Visharad (Advanced Vedic Astrology)</span>
+                        </div>
+                        <div class="cert-item">
+                            <span class="cert-icon">📜</span>
+                            <span>Nadi Astrology Expert</span>
+                        </div>
+                        <div class="cert-item">
+                            <span class="cert-icon">🌟</span>
+                            <span>Vastu Shastra Certified</span>
+                        </div>
+                    </div>
+
+                    <div class="achievements">
+                        <div class="achievement-stat">
+                            <span>15+</span>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="achievement-stat">
+                            <span>10k+</span>
+                            <p>Satisfied Clients</p>
+                        </div>
+                        <div class="achievement-stat">
+                            <span>95%</span>
+                            <p>Accuracy Rate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <h2>What Our Clients Say</h2>
+            <p class="section-subtitle">Real experiences from our valued clients</p>
+            <div class="testimonial-cards">
+                <div class="testimonial-card">
+                    <img src="images/client1.jpg" alt="Client">
+                    <p>"The guidance I received was transformative. Renu's insights were incredibly accurate and helped me make important life decisions."</p>
+                    <h4>- Sarah M.</h4>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="testimonial-card">
+                    <img src="images/client2.jpg" alt="Client">
+                    <p>"Amazing experience! The career guidance helped me choose the right path. I'm now pursuing my dream job with confidence."</p>
+                    <h4>- Rahul K.</h4>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="testimonial-card">
+                    <img src="images/client3.jpg" alt="Client">
+                    <p>"Detailed and insightful reading. Renu has a special gift for understanding people and providing clarity in difficult times."</p>
+                    <h4>- Priya S.</h4>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <p class="section-subtitle">Expert guidance for every aspect of your life</p>
+            <div class="service-cards">
+                <div class="service-card">
+                    <div class="service-icon">🌟</div>
+                    <h3>Personal Horoscope</h3>
+                    <p>Comprehensive birth chart analysis revealing your life path, strengths, and opportunities</p>
+                    <ul class="service-features">
+                        <li>Detailed planetary positions</li>
+                        <li>Life path analysis</li>
+                        <li>Personality insights</li>
+                    </ul>
+                    <p class="price">₹2,500</p>
+                    <button class="book-button" data-service="horoscope">Book Now</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💼</div>
+                    <h3>Career Guidance</h3>
+                    <p>Professional astrological insights to guide your career decisions and growth</p>
+                    <ul class="service-features">
+                        <li>Career path analysis</li>
+                        <li>Timing for decisions</li>
+                        <li>Growth opportunities</li>
+                    </ul>
+                    <p class="price">₹3,000</p>
+                    <button class="book-button" data-service="career">Book Now</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">❤️</div>
+                    <h3>Relationship Reading</h3>
+                    <p>Understanding compatibility and improving relationships through astrology</p>
+                    <ul class="service-features">
+                        <li>Compatibility analysis</li>
+                        <li>Relationship timing</li>
+                        <li>Partnership guidance</li>
+                    </ul>
+                    <p class="price">₹2,800</p>
+                    <button class="book-button" data-service="relationship">Book Now</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="booking" class="booking">
+            <h2>Book Your Consultation</h2>
+            <p class="section-subtitle">Take the first step towards clarity and guidance</p>
+            <div class="booking-container">
+                <form id="appointment-form">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <input type="tel" id="phone" placeholder="Phone Number" required>
+                    <select id="service-type" required>
+                        <option value="">Select Service</option>
+                        <option value="horoscope">Personal Horoscope</option>
+                        <option value="career">Career Guidance</option>
+                        <option value="relationship">Relationship Reading</option>
+                    </select>
+                    <input type="date" id="appointment-date" required>
+                    <select id="appointment-time" required>
+                        <option value="">Select Time</option>
+                    </select>
+                    <button type="submit" id="submit-booking">Book Now</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: contact@celestialguidance.com</p>
+                <p>Phone: +91 XXXXXXXXXX</p>
+                <p>Location: Mumbai, India</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">WhatsApp</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Celestial Guidance. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
